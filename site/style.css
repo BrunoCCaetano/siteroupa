@@ -1,0 +1,23 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("contato.css");
+@import url("topicos");
+
+:root{
+    --cor-de--fundo: black;
+    --cor-do-menu: rgba(252, 255, 250, 0.797);
+    --titulo: white;
+    --cor-do-menu-fundo: #F5FFFA;
+    --link-1: #DC143C;
+    --link-2: #F0E68C;
+    --link-3: #98FB98;
+    font-family: 'RocknRoll One', sans-serif;
+}
+body{
+    background-color: var(--cor-de--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+#more {display: none;}
